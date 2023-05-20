@@ -1,5 +1,5 @@
 {
-  "name": "todo-list-app",
+  "name": "webinar-sample-todo-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nanostores/react": "^0.6.0",
+    "@supabase/supabase-js": "^2.22.0",
     "autoprefixer": "10.4.14",
-    "eslint": "8.41.0",
-    "eslint-config-next": "13.4.3",
+    "daisyui": "^2.51.6",
+    "nanostores": "^0.8.1",
     "next": "13.4.3",
     "postcss": "8.4.23",
     "react": "18.2.0",
